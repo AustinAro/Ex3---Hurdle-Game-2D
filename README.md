@@ -31,7 +31,6 @@ Register no: 212224040038
 ```
 
 ### player.cs :
-
 ```
 using System;
 using UnityEngine;
@@ -68,8 +67,8 @@ public class Player : MonoBehaviour
     }
 }
 ```
-### Score.cs :
 
+### Score.cs :
 ```
 using UnityEngine;
 using UnityEngine.UI;
@@ -90,12 +89,9 @@ public class Score : MonoBehaviour
         Value.text = coincount.ToString();
     }
 }
-
 ```
 ## OUTPUT:
-
 <img width="1919" height="1136" alt="Screenshot 2025-11-15 224717" src="https://github.com/user-attachments/assets/1d1fade3-fd00-4ede-9c50-3efccd9f9e65" />
-
 <img width="1918" height="1137" alt="Screenshot 2025-11-15 224649" src="https://github.com/user-attachments/assets/23915d15-79d4-41b7-adb3-dc57c6f19d55" />
 
 ## RESULT:
