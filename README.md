@@ -5,22 +5,16 @@ To develop a 2D game using C# program in unity .
 ## ALGORITHM:
 ### STEP 1:
 Create a 2D project in unity.
-
 ### STEP 2:
 Add player,hurdles,coins,track in the frame and add the valid collider2D component.
-
 ### STEP 3:
 Click Assets->Create-># Script.
-
 ### STEP 4:
 create player.cs and coinmanger script and add c# code.
-
 ### STEP 5:
 Click canvas->Gamemanager->add Score and value.
-
 ### STEP 6:
 Drag the script to player and coin.
-
 ### STEP 7:
 Run the scene and display the output.
 
@@ -29,25 +23,20 @@ Run the scene and display the output.
 Developed by: Austin Aro A
 Register no: 212224040038
 ```
-
 ### player.cs :
 ```
 using System;
 using UnityEngine;
-
 public class Player : MonoBehaviour
 {
     public float speed, jumpForce;
     private Rigidbody2D rb;
     public Score cc;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         float moveinp = Input.GetAxisRaw("Horizontal");
@@ -67,7 +56,6 @@ public class Player : MonoBehaviour
     }
 }
 ```
-
 ### Score.cs :
 ```
 using UnityEngine;
@@ -90,10 +78,10 @@ public class Score : MonoBehaviour
     }
 }
 ```
+
 ## OUTPUT:
 <img width="1919" height="1136" alt="Screenshot 2025-11-15 224717" src="https://github.com/user-attachments/assets/1d1fade3-fd00-4ede-9c50-3efccd9f9e65" />
 <img width="1918" height="1137" alt="Screenshot 2025-11-15 224649" src="https://github.com/user-attachments/assets/23915d15-79d4-41b7-adb3-dc57c6f19d55" />
 
 ## RESULT:
-
 Thus a 2D game using C# program in unity is developed successfully.
